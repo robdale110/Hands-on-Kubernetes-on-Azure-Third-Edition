@@ -58,7 +58,7 @@ jobs:
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
           resource-group: rg-handsonaks
-          cluester-name: handsonaks
+          cluster-name: handsonaks
 
       - name: Helm upgrade
         run: |
